@@ -53,3 +53,9 @@ SET SQLPROMPT "_USER'@'_CONNECT_IDENTIFIER _DATE> "
 ~~~
 
 ![alt_tag](sqlplus.gif?raw_true "Demo")
+
+## TODO:
+
+- Añadir usuarios al diccionario
+- Añadir variables
+- Actualizar diccionario cada vez que se salga de una sesión sqlplus
