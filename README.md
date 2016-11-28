@@ -29,7 +29,7 @@ select object_name from all_objects where object_type in (
 $ # -i: ignore case
 $ # -f: nombre del diccionario
 $ # -pgreen: prompt verde
-$ rlwrap -if sqlplus.dict sqlplus scott/tiger
+$ rlwrap -if sqlplus.dict sqlplus scott/tiger -pgreen
 ~~~
 
 ## TIPS & TRICKS
@@ -51,3 +51,5 @@ set linesize 200
 define_editor=/usr/bin/nvim
 SET SQLPROMPT "_USER'@'_CONNECT_IDENTIFIER _DATE> "
 ~~~
+
+![alt_tag](sqlplus.gif?raw_true "Demo")
